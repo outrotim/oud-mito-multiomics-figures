@@ -1,0 +1,7 @@
+# Python dependencies for figure-assembly scripts
+# Tested on Python 3.10+
+matplotlib>=3.7
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+PyMuPDF>=1.23  # imported as fitz; needed for assemble_fig6.py to embed schematic PDF
